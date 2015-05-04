@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="4" errors="0" failures="2" time="0.008" timestamp="2015-05-04T15:36:29">
+		<testcase classname="fizzbuzz" name="returns Fizz if the number is divisible by 3" time="0.003">
+		</testcase>
+		<testcase classname="fizzbuzz" name="returns Buzz if the number is divisible by 5" time="0.002">
+			<failure type="toEqual" message="Expected 5 to equal &amp;apos;Buzz&amp;apos;.">
+	at stack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:442:41)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1209:32
+	at file:///Users/antonwhalim/development/JAVASCRIPT/js-fizzbuzz-bk-002/spec/fizzbuzz.spec.js:11:32
+	at attemptSync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:506:11)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/boot.js:172:16)			</failure>
+			<failure type="toEqual" message="Expected 10 to equal &amp;apos;Buzz&amp;apos;.">
+	at stack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:442:41)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1209:32
+	at file:///Users/antonwhalim/development/JAVASCRIPT/js-fizzbuzz-bk-002/spec/fizzbuzz.spec.js:12:33
+	at attemptSync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:506:11)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="fizzbuzz" name="returns FizzBuzz if the number is divisible by 3 and 5" time="0.001">
+			<failure type="toEqual" message="Expected &amp;apos;Fizz&amp;apos; to equal &amp;apos;FizzBuzz&amp;apos;.">
+	at stack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:442:41)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1209:32
+	at file:///Users/antonwhalim/development/JAVASCRIPT/js-fizzbuzz-bk-002/spec/fizzbuzz.spec.js:15:33
+	at attemptSync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:506:11)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:506:11)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/boot.js:172:16)			</failure>
+			<failure type="toEqual" message="Expected &amp;apos;Fizz&amp;apos; to equal &amp;apos;FizzBuzz&amp;apos;.">
+	at stack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1293:37)
+	at buildExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1270:19)
+	at expectationResultFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:484:40)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:260:70)
+	at addExpectationResult (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:442:41)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1209:32
+	at file:///Users/antonwhalim/development/JAVASCRIPT/js-fizzbuzz-bk-002/spec/fizzbuzz.spec.js:16:33
+	at attemptSync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1510:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1498:20)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:506:11)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at next (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1517:40)
+	at complete (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:333:19)
+	at clearStack (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:506:11)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1505:22)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:306:28)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1708:44
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1694:21)
+	at file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:541:83
+	at attemptAsync (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1520:16)
+	at run (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1496:28)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:1485:13)
+	at queueRunnerFactory (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:518:42)
+	at execute (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/jasmine.js:548:25)
+	at onload (file:///Users/antonwhalim/.rvm/gems/ruby-2.2.0/gems/learn-co-1.0.2/lib/learn/jasmine/boot.js:172:16)			</failure>
+		</testcase>
+		<testcase classname="fizzbuzz" name="returns the number if it is not divisible by 3 or 5" time="0">
+		</testcase>
+	</testsuite>
+</testsuites>
+
